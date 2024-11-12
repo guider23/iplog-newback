@@ -1,0 +1,19 @@
+{
+  "name": "gatekeeper-project",
+  "version": "1.0.0",
+  "description": "IP logging and DDoS prevention",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "request-ip": "^3.0.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
